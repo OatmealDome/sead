@@ -34,7 +34,7 @@ private:
 class FontBase
 {
 public:
-    virtual ~FontBase();
+    virtual ~FontBase() __attribute__((used)) = default;
 
     virtual float getHeight() const = 0;
     virtual float getWidth() const = 0;
