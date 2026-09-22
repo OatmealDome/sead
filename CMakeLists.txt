@@ -136,6 +136,7 @@ add_library(sead OBJECT
   include/math/seadMathCalcCommon.hpp
   include/math/seadMathNumbers.h
   include/math/seadMathPolicies.h
+  include/math/seadGeometry.h
   include/math/seadMatrix.h
   include/math/seadMatrix.hpp
   include/math/seadMatrixCalcCommon.h
