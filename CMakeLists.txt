@@ -129,6 +129,8 @@ add_library(sead OBJECT
   modules/src/heap/seadHeap.cpp
   modules/src/heap/seadHeapMgr.cpp
 
+  include/kcol/seadKCollision.h
+
   include/math/seadBoundBox.h
   include/math/seadBoundBox.hpp
   include/math/seadMathBase.h
